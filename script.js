@@ -13,12 +13,8 @@ getPrices.forEach(price=>{
     
 })
 
-console.log(total);
-
-
 let row=document.createElement("tr");
 row.id="result";
-
 
 let cell1=document.createElement("td")
 cell1.innerText="Total Price";
@@ -27,6 +23,7 @@ cell1.className="item";
 let cell2=document.createElement("td")
 cell2.innerText=total;
 cell2.className="price";
+	
 table.appendChild(row)
 row.appendChild(cell1)
 row.appendChild(cell2)
