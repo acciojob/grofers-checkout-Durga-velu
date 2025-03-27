@@ -14,7 +14,7 @@ getPrices.forEach(price=>{
 })
 
 let row=document.createElement("tr");
-row.id="result";
+row.id="ans";
 
 let cell1=document.createElement("td")
 cell1.innerText="Total Price";
